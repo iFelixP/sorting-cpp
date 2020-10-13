@@ -5,7 +5,7 @@
 class IntegerDescendantComparator : public Comparator<int>
 {
 public:
-    int compare(const int& left, const int& right)
+    int compare(int& left, int& right)
     {
         return left - right;
     }

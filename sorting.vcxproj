@@ -19,8 +19,18 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Alumno.h" />
+    <ClInclude Include="ClaveAscendantComparator.h" />
+    <ClInclude Include="ClaveDescendantComparator.h" />
     <ClInclude Include="Comparator.h" />
+    <ClInclude Include="DateMonthAscendantComparator.h" />
+    <ClInclude Include="DateMonthDescendantComparator.h" />
+    <ClInclude Include="FirstNameAscendantComparator.h" />
+    <ClInclude Include="FirstNameDescendantComparator.h" />
     <ClInclude Include="IntegerDescendantComparator.h" />
+    <ClInclude Include="LastNameAscendantComparator.h" />
+    <ClInclude Include="LastNameDescendantComparator.h" />
+    <ClInclude Include="Month.h" />
     <ClInclude Include="Sorter.h" />
     <ClInclude Include="StringAscendantComparator.h" />
   </ItemGroup>
